@@ -1,0 +1,89 @@
+/* Resetting default margin, padding, and applying a modern font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Styling the header with a gradient background and subtle shadow */
+  header {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling headings with increased font size and letter spacing */
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+  }
+  
+  /* Styling navigation links */
+  nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+  }
+  
+  /* Adding padding to main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Adding margin bottom to sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling headings within sections */
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  /* Making skills container flex */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Styling individual skill items with rounded corners and subtle shadow */
+  .skill {
+    flex: 0 0 calc(33.333% - 20px); /* Three skills per row with 20px margin */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Clearfix for older browsers */
+  .skill::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  /* Aligning content to the left */
+  section, p, ul, li {
+    text-align: left;
+  }
+  
